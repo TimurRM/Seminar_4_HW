@@ -38,7 +38,7 @@ void PowNumber()
         int numA = new Random().Next(10);
         int numB = new Random().Next(10);
 
-        Console.WriteLine($"{numA}, {numB} -> {Math.Pow(numA, numB)}");
+        Console.WriteLine("{0}, {1} -> " + Math.Pow(numA, numB), numA, numB);
         
     }
     for (int i = 0; i < 3; i++)
